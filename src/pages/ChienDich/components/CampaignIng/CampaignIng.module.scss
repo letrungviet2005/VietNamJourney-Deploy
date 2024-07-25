@@ -1,0 +1,67 @@
+:root {
+  --color-text: #196E36;
+  --color-desc: #8C8989;
+}
+.CampaignIng {
+  margin-top: 80px;
+
+  hr {
+    margin: 0;
+    width: 20%;
+    border: 3px solid var(--color-text);
+    opacity: 1;
+  }
+}
+
+.CampaignIng .title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.pad {
+  margin: 0px -35px;
+}
+
+.skeletons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  
+}
+
+@media screen and (max-width: 1199.8px) {
+
+}
+
+@media screen and (max-width: 991.8px) {
+  
+}
+
+@media screen and (max-width: 767.8px){
+  
+}
+
+@media screen and (max-width: 575.8px){
+  .CampaignIng {
+    margin-top: 40px;
+    padding: 0 5px;
+  
+    hr {
+      margin: 0;
+      width: 30%;
+      border: 2px solid var(--color-text);
+      opacity: 1;
+    }
+  }
+  
+  .CampaignIng .title {
+    font-size: 24px;
+  }
+}
